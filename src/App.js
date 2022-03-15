@@ -74,6 +74,7 @@ function App() {
     .then(data => {
       console.log('getting response...')
       console.log(data);
+    setButtonText('getting response');
 
       // POST request error
       if (data.statusCode === 400) {
@@ -99,7 +100,7 @@ function App() {
   return (
     <div className="App">
       <div className="Description">
-        <h1>Input</h1>
+        <h1>Description</h1>
         <p>"The test for description."</p>
       </div>
       <div className="Input">
