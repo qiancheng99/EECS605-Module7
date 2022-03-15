@@ -98,10 +98,14 @@ function App() {
 
   return (
     <div className="App">
+      <div className="Description">
+        <h1>Input</h1>
+        <p>"The test for description."</p>
+      </div>
       <div className="Input">
         <h1>Input</h1>
         <form onSubmit={handleSubmit}>
-          <input type="file" accept=".png" onChange={handleChange} />
+          <input type="file" accept="image/*" onChange={handleChange} />
           <button type="submit" disabled={buttonDisable}>{buttonText}</button>
         </form>
       </div>
