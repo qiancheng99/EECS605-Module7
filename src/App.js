@@ -101,7 +101,8 @@ function App() {
     <div className="App">
       <div className="Description">
         <h1>Description</h1>
-        <p>"The test for description."</p>
+        <p>"In the recent past, video calls have become a primary form of communication for work and school due to the  global pandemic. Virtually everyone has been forced to use their  homes as the centerpiece for their video calls. Many people are limited to the spaces with access to a computer and internet within their homes. These spaces can have distracting or unprofessional backgrounds for video calls.  To minimize the effects this can have on people working virtually, they would like the ability to change the background of their video calls to an image of their choice that best fits the scenario or environment they are in.  Thus, I develop a program which can detect people in the image and replace the background the user desires." </p>
+        <p>"The input to the algorithm should be an image containing human portrait. It will return an image with the background of the portrait replaced. I have used transfer learning to tune the existing resnet model to fit the human portrait.  My algorithm takes the image and feed it to this pre-trained neural network to predict the location of human portrait. Then it will mask the pixels in these locations in the desired background image, and combine this masked image with the extracted portrait to get the final output. "</p>
       </div>
       <div className="Input">
         <h1>Input</h1>
@@ -111,8 +112,8 @@ function App() {
         </form>
       </div>
       <div className="Output">
-        <h1>Original Image</h1>
-        <img src={inputFileData} width="450" height="600" alt="" />
+//         <h1>Original Image</h1>
+//         <img src={inputFileData} width="450" height="600" alt="" />
         <h1>Results</h1>
         <img src={outputFileData} width="450" height="600" alt="" />
       </div>
