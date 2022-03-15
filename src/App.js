@@ -112,7 +112,7 @@ function App() {
       </div>
       <div className="Output">
         <h1>Original Image</h1>
-        <img src={InputFileData} width="450" height="600" alt="" />
+        <img src={inputFileData} width="450" height="600" alt="" />
         <h1>Results</h1>
         <img src={outputFileData} width="450" height="600" alt="" />
       </div>
