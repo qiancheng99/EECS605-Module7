@@ -100,7 +100,7 @@ function App() {
   return (
     <div className="App">
       <div className="Virtual Backgrounds Demo">
-        <h1>Description</h1>
+        <h1>Virtual Backgrounds Demo</h1>
         <p>Author: Cheng Qian</p>
         <p>Email: chengqia@umich.edu</p>
       </div>
@@ -110,7 +110,7 @@ function App() {
       </div>
       <div className="Instructions for use">
         <h1>Instructions for use</h1>
-        <p>The input to the algorithm should be an image containing human portrait of any image format. The program will return an image with the background of the portrait replaced. </p>
+        <p>The input to the algorithm should be an image containing human portrait of any image format (.jpg, .png, etc). The program will return an image with the background of the portrait replaced. </p>
       </div>    
       <div className="Input">
         <h1>Input</h1>
