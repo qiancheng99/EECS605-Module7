@@ -305,13 +305,9 @@ function App() {
         <p>Author: Cheng Qian</p>
         <p>Email: chengqia@umich.edu</p>
       </div>
-      <div className="Description">
-        <h1>Description</h1>
-        <p>In the recent past, video calls have become a primary form of communication for work and school due to the  global pandemic. Virtually everyone has been forced to use their  homes as the centerpiece for their video calls. Many people are limited to the spaces with access to a computer and internet within their homes. These spaces can have distracting or unprofessional backgrounds for video calls.  To minimize the effects this can have on people working virtually, they would like the ability to change the background of their video calls to an image of their choice that best fits the scenario or environment they are in.  Thus, I develop a program which can detect people in the image and replace the background the user desires. I have used transfer learning to tune the existing resnet model to fit the human portrait.  My algorithm takes the image and feed it to this pre-trained neural network to predict the location of human portrait. Then it will mask the pixels in these locations in the desired background image, and combine this masked image with the extracted portrait to get the final output. The deatiled report can be found: <a href="https://github.com/qiancheng99/EECS605-Module7/blob/main/public/EECS_605_Project.pdf">technical report</a></p>
-//       </div>
-//       <div className="Instructions for use">
-//         <h1>Instructions for use</h1>
-        <p>The input to the algorithm should be an image containing human portrait of any image format (.jpg, .png, etc). The program will return an image with the background of the portrait replaced. </p>
+      <div className="Instructions for use">
+        <h1>Instructions for use</h1>
+        <p>The input to the algorithm should be an image containing human portrait of any image format (.jpg, .png, etc). The program will return an image with the background of the portrait replaced. The deatiled report can be found: <a href="https://github.com/qiancheng99/EECS605-Module7/blob/main/public/EECS_605_Project.pdf">technical report</a></p>
       </div> 
       <div className="Input">
         <h1>Input</h1>
