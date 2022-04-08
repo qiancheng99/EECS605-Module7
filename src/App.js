@@ -300,6 +300,11 @@ function App() {
 
   return (
     <div className="App">
+      <div className="Virtual Backgrounds Demo">
+        <h1>Virtual Backgrounds Demo</h1>
+        <p>Author: Cheng Qian</p>
+        <p>Email: chengqia@umich.edu</p>
+      </div>
       <div className="Input">
         <h1>Input</h1>
         <label htmlFor="demo-dropdown">Demo: </label>
@@ -316,7 +321,7 @@ function App() {
       </div>
       <div className="Output">
         <h1>Results</h1>
-        <p>{outputFileData}</p>
+        <img src={outputFileData} alt="" />
       </div>
     </div>
   );
